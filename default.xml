@@ -14,7 +14,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.7.1.r1-16900-sm8150.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.7.1.r1-17000-sm8150.0" remote="caf" sync-j="4" />
   
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
