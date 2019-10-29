@@ -1,4 +1,4 @@
-ReloadedOS
+PixelReloaded
 ===========
 
 Getting Started
