@@ -2,19 +2,20 @@
 <manifest>
 
   <remote name="caf" 
-          fetch="http://source.codeaurora.org/quic/la" 
+          fetch="https://source.codeaurora.org/quic/la" 
           review="codeaurora.org" />
           
   <remote name="aosp"
           fetch="https://android.googlesource.com"
           review="https://android-review.googlesource.com/" 
-          revision="refs/tags/android-9.0.0_r46"/>
+          revision="refs/tags/android-9.0.0_r46"
+          sync-j="4" />
 
   <remote name="github" fetch="https://github.com" />
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.7.1.r1-17000-sm8150.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.7.1.r1-17200-sm8150.0" remote="caf" sync-j="4" />
   
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
