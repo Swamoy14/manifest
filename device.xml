@@ -2,7 +2,7 @@
 <manifest>
   <project path="packages/apps/WallpapersBReel2019" name="packages_apps_WallpapersBReel2019" remote="pixel-gitlab" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
-  <project path="device/xiaomi/land" name="Swamoy14/android_device_xiaomi_land" remote="github" revision="PR10" />
-  <project path="vendor/xiaomi" name="ArrowOS-Devices/android_vendor_xiaomi_land" remote="github" revision="arrow-10.0" />
+  <project path="device/xiaomi/land" name="PixelExperience-Devices/device_xiaomi_land" remote="github" revision="ten" />
+  <project path="vendor/xiaomi" name="PixelExperience-Devices/vendor_xiaomi_land" remote="github" revision="ten" />
   <project path="kernel/xiaomi/msm8937" name="Swamoy14/android_kernel_xiaomi_msm8937" remote="github" revision="ten"/>
 </manifest>
