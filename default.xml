@@ -15,7 +15,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.1.r1-13000-sm8150.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.8.1.r1-13500-sm8150.0" remote="caf" sync-j="4" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -545,7 +545,7 @@
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
-  <project path="kernel/build" name="kernel/build" />
+  <project path="kernel/build" name="kernel/build" remote="aosp" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
