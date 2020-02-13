@@ -5,11 +5,6 @@
           fetch="https://github.com/PixelExperience"
           revision="ten"
           review="gerrit.pixelexperience.org" />
-          
-  <remote name="pixel-wip"
-          fetch="https://github.com/pe-wip"
-          revision="ten"
-          review="gerrit.pixelexperience.org" />
 
   <remote name="pixel-devices"
           fetch="https://github.com/PixelExperience-Devices"
@@ -37,7 +32,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pixel-wip" />
+  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
   <project path="frameworks/base" name="frameworks_base" remote="pixel" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
@@ -114,6 +109,6 @@
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
-  <project path="system/vold" name="system_vold" remote="pixel-wip" />
+  <project path="system/vold" name="system_vold" remote="pixel" />
 
 </manifest>

@@ -15,7 +15,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.1.r1-13500-sm8150.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.8.1.r1-14300-sm8150.0" remote="caf" sync-j="4" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -249,7 +249,7 @@
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" />
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
+  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" remote="aosp" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/libkmsxx" name="platform/external/libkmsxx" groups="pdk" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" />
