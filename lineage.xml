@@ -4,7 +4,11 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-17.1" />
-
+          
+  <remote name="msm8937_64"
+          fetch="https://github.com/Swamoy14"
+          revision="ten" />
+          
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
@@ -55,9 +59,9 @@
   <project path="hardware/qcom-caf/msm8994/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8994" remote="lineage" />
   <project path="hardware/qcom-caf/msm8994/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8994" remote="lineage" />
   <project path="hardware/qcom-caf/msm8994/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8994" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="msm8937_64" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="msm8937_64" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="msm8937_64" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8998" remote="lineage" />
@@ -75,7 +79,7 @@
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.1-sn100x" remote="lineage" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="Swamoy14/android_vendor_qcom_opensource_data-ipa-cfg-mgr" revision ="ten" remote="github" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" remote="msm8937_64" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />  
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
