@@ -22,8 +22,8 @@
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   
     <!-- Device additions -->
-    <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="test" />
-    <project path="vendor/xiaomi" name="android_vendor_xiaomi_land" remote="test" />
-    <project path="kernel/xiaomi/msm8937" name="Swamoy14/android_kernel_xiaomi_msm8937" remote="github" revision="ten-up"/>
+    <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="msm8937_64" />
+    <project path="vendor/xiaomi" name="android_vendor_xiaomi_land" remote="msm8937_64" />
+    <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="test" />
   
 </manifest>
