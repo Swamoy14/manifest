@@ -59,8 +59,10 @@
   <remove-project name="platform/external/google-fonts/lato" />
   <remove-project name="platform/external/google-fonts/rubik" />
   <remove-project name="platform/external/google-fonts/zilla-slab" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
