@@ -2,7 +2,7 @@
 <manifest>
 
     <remote name="msm8937_64"
-          fetch="https://github.com/Swamoy14"
+          fetch="https://github.com/swamoy14"
           revision="ten" />
           
     <remote name="test"
