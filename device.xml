@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="msm8937_64"
-          fetch="https://github.com/swamoy14"
-          revision="ten" />
+    <remote name="ten"
+          fetch="https://github.com/Swamoy14"
+          revision="stable" />
           
     <remote name="test"
           fetch="https://github.com/Swamoy14"
@@ -13,8 +13,8 @@
     <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="pixel-gitlab" />
   
     <!-- Device additions -->
-    <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="test" />
-    <project path="vendor/xiaomi" name="android_vendor_xiaomi_land" remote="test" />
+    <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="ten" />
+    <project path="vendor/xiaomi" name="android_vendor_xiaomi_land" remote="ten" />
     <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="test" />
   
 </manifest>
