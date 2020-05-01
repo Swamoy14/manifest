@@ -91,7 +91,7 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel-plus" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
-  <project path="vendor/google/customization" name="vendor_google_customization" remote="pixel" />
+  <project path="vendor/google-customization" name="vendor_google-customization" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
@@ -130,7 +130,6 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pixel-plus" />
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel" />
   <project path="external/skia" name="external_skia" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
