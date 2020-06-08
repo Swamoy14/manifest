@@ -2,11 +2,11 @@
 <manifest>
 
     <remote name="caf" fetch="git://codeaurora.org/quic/la" review="codeaurora.org" />
-    <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-10.0.0_r35" review="https://android-review.googlesource.com" />
+    <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-10.0.0_r37" review="https://android-review.googlesource.com" />
     <remote name="github" fetch="https://github.com" />
     <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-    <default remote="caf" revision="refs/tags/LA.UM.8.12.r1-11700-sm8250.0" sync-j="4" />
+    <default remote="caf" revision="refs/tags/LA.UM.8.12.r1-11700-sm8250.0" sync-j="4" sync-c="true" sync-f="true" />
 
     <project path="build/make" name="platform/build" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -476,7 +476,7 @@
     <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
     <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
     <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
-    <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
+    <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
     <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
     <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
     <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
@@ -780,18 +780,19 @@
     <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
     <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
     <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+    
     <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-<!-- Remove unused AOSP repos -->
-    <include name="remove.xml" />
+    <!-- Remove unused AOSP repos -->
+    <include name="snippets/remove.xml" />
 
-<!-- Add some LineageOS repos -->
-    <include name="lineage.xml" />
+    <!-- Add some LineageOS repos -->
+    <include name="snippets/lineage.xml" />
 
-<!-- Add all PixelExperience repos -->
-    <include name="pixel.xml" />
+    <!-- Add all PixelExperience repos -->
+    <include name="snippets/pixel.xml" />
 
-<!-- Add all Device Specific repos -->
-    <include name="device.xml" />
+    <!-- Add all Device Specific repos -->
+    <include name="device/land.xml" />
 
 </manifest>
