@@ -6,7 +6,7 @@
     <remote name="github" fetch="https://github.com" />
     <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-    <default remote="caf" revision="refs/tags/LA.UM.8.12.r1-11700-sm8250.0" sync-j="4" sync-c="true" sync-f="true" />
+    <default remote="caf" revision="refs/tags/LA.UM.8.12.r1-11900-sm8250.0" sync-j="4" sync-c="true" sync-f="true" />
 
     <project path="build/make" name="platform/build" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -793,6 +793,6 @@
     <include name="snippets/pixel.xml" />
 
     <!-- Add all Device Specific repos -->
-    <include name="device/land.xml" />
+    <include name="device/X00T.xml" />
 
 </manifest>

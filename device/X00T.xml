@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="stable" fetch="https://github.com/Swamoy14" revision="stable" />
+    
+    <!-- CAF additions -->
+    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="stable" />
+    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8998" remote="lineage" />
+    <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8998" remote="lineage" />
+  
+    <!-- Pixel additions -->
+    <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="pixel-gitlab" />
+  
+    <!-- Device additions -->
+    <project path="vendor/asus" name="android_vendor_asus_X00T" remote="stable" />
+    <project path="device/asus/X00T" name="android_device_asus_X00T" remote="stable" />
+    <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="stable" />
+  
+</manifest>
