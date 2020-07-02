@@ -2,7 +2,6 @@
 <manifest>
 
     <remote name="stable" fetch="https://github.com/Swamoy14" revision="stable" />
-    <remote name="beta" fetch="https://github.com/Swamoy14" revision="beta" />
     <remote name="unstable" fetch="https://github.com/Swamoy14" revision="unstable" />
     
     <!-- CAF additions -->
@@ -14,8 +13,8 @@
     <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="pixel-gitlab" />
   
     <!-- Device additions -->
-    <project path="vendor/xiaomi" name="android_vendor_xiaomi_land" remote="beta" />
-    <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="beta" />
+    <project path="vendor/xiaomi" name="android_vendor_xiaomi_land" remote="unstable" />
+    <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="unstable" />
     <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="unstable" />
   
 </manifest>
