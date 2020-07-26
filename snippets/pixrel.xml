@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="pr" fetch="https://github.com/Swamoy14" revision="stable" />
+    <remote name="pr-be" fetch="https://github.com/Swamoy14" revision="beta" />
+    <remote name="pr-un" fetch="https://github.com/Swamoy14" revision="unstable" />
+    <remote name="nitrogen" fetch="https://bitbucket.org/nitrogen-project" revision="10" />
+  
+    <!-- CAF additions -->
+    <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8996" remote="lineage" />
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="pr" />
+    <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8996" remote="lineage" />
+    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="pr" />
+    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-17.1-caf-msm8998" remote="lineage" />
+    <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-17.1-caf-msm8998" remote="lineage" />
+
+    <!-- External additions -->
+    <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nitrogen" />
+    
+    <!-- Framework repos -->
+    <project path="frameworks/base" name="frameworks_base" remote="pr" />
+    
+    <!-- Packages repos -->
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pr" />
+    
+    <!-- Pixel additions -->
+    <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="pixel-gitlab" />
+  
+</manifest>

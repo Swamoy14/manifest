@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <remote name="nitrogen" fetch="https://bitbucket.org/nitrogen-project" revision="10" />
-
-  <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nitrogen" />
-  
-</manifest>

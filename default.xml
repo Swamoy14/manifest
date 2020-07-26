@@ -786,8 +786,8 @@
     <!-- Remove unused AOSP repos -->
     <include name="snippets/remove.xml" />
     
-    <!-- Add some LineageOS repos -->
-    <include name="snippets/nitrogen.xml" />
+    <!-- Add some PixelReloaded repos -->
+    <include name="snippets/pixrel.xml" />
 
     <!-- Add some LineageOS repos -->
     <include name="snippets/lineage.xml" />
@@ -796,6 +796,6 @@
     <include name="snippets/pixel.xml" />
 
     <!-- Add all Device Specific repos -->
-    <include name="device/land.xml" />
+    <include name="device/X00T.xml" />
 
 </manifest>
