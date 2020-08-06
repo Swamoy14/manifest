@@ -6,7 +6,7 @@
     <remote name="github" fetch="https://github.com" />
     <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-    <default remote="caf" revision="refs/tags/LA.UM.8.12.r1-13500-sm8250.0" sync-j="4" sync-c="true" sync-f="true" />
+    <default remote="caf" revision="refs/tags/LA.UM.8.12.r1-13700-sm8250.0" sync-j="4" sync-c="true" sync-f="true" />
 
     <project path="build/make" name="platform/build" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
