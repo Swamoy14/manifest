@@ -4,6 +4,6 @@
     <!-- Device additions -->
     <project path="vendor/xiaomi" name="android_vendor_xiaomi_land" remote="pr-un" />
     <project path="device/xiaomi/land" name="android_device_xiaomi_land" remote="pr-un" />
-    <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="pr-be" />
+    <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="pr-un" />
   
 </manifest>
