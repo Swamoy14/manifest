@@ -2,10 +2,10 @@
 <manifest>
 
     <remote name="pr" fetch="https://github.com/Swamoy14" revision="stable" />
-    <remote name="pr-be" fetch="https://github.com/Swamoy14" revision="beta" />
-    <remote name="pr-un" fetch="https://github.com/Swamoy14" revision="unstable" />
+    <remote name="pr-b" fetch="https://github.com/Swamoy14" revision="beta" />
+    <remote name="pr-u" fetch="https://github.com/Swamoy14" revision="unstable" />
     <remote name="nitrogen" fetch="https://bitbucket.org/nitrogen-project" revision="10" />
-  
+      
     <!-- CAF additions -->
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-17.1-caf-msm8996" remote="lineage" />
     <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="pr" />

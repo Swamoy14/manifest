@@ -5,7 +5,7 @@
   <remote name="pixel-plus" fetch="https://github.com/PixelExperience" revision="ten-plus" review="gerrit.pixelexperience.org" />
   <remote name="pixel-devices" fetch="https://github.com/PixelExperience-Devices" revision="ten" />
   <remote name="pixel-devices-bitbucket" fetch="https://bitbucket.org/PixelExperience-Devices" revision="ten" />
-  <remote name="pixel-gitlab" fetch="https://gitlab.com/PixelExperience" revision="ten" />
+  <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="ten" />
   <remote name="bitbucket" fetch="https://bitbucket.org" />
   <remote name="gitlab" fetch="https://gitlab.com" />
 
