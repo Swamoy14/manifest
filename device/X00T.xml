@@ -4,6 +4,6 @@
     <!-- Device additions -->
     <project path="vendor/asus" name="android_vendor_asus_X00T" remote="pr" />
     <project path="device/asus/X00T" name="android_device_asus_X00T" remote="pr" />
-    <project path="kernel/asus/sdm636" name="android_kernel_asus_sdm636" remote="pr" />
+    <project path="kernel/asus/sdm636" name="android_kernel_asus_sdm636" remote="pr-b" />
   
 </manifest>

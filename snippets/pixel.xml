@@ -5,6 +5,7 @@
   <remote name="pixel-plus" fetch="https://github.com/PixelExperience" revision="ten-plus" review="gerrit.pixelexperience.org" />
   <remote name="pixel-devices" fetch="https://github.com/PixelExperience-Devices" revision="ten" />
   <remote name="pixel-devices-bitbucket" fetch="https://bitbucket.org/PixelExperience-Devices" revision="ten" />
+  <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="ten" />
   <remote name="pixel-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="ten" />
   <remote name="bitbucket" fetch="https://bitbucket.org" />
   <remote name="gitlab" fetch="https://gitlab.com" />
@@ -51,6 +52,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel-plus" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
@@ -105,6 +107,7 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
@@ -127,6 +130,7 @@
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
   <project path="external/libtextclassifier" name="external_libtextclassifier" remote="pixel" />
+  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="pixel-gitlab" />
   <project path="external/selinux" name="external_selinux" remote="pixel" />
   <project path="external/skia" name="external_skia" remote="pixel" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />

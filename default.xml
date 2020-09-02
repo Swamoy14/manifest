@@ -796,6 +796,6 @@
     <include name="snippets/pixel.xml" />
 
     <!-- Add all Device Specific repos -->
-    <include name="device/X00T.xml" />
+    <include name="device/land.xml" />
 
 </manifest>
