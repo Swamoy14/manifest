@@ -21,7 +21,7 @@ Building the source
 The source at PR10 is well configured for building.
 
     $ . build/envsetup.sh
-    $ lunch aosp_land-userdebug
+    $ lunch aosp_[device_name]-userdebug
     $ mka bacon -jX
 
 where X is the number of jobs you would like to allot to the build system.
