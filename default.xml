@@ -6,7 +6,7 @@
     <remote name="github" fetch="https://github.com" />
     <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-    <default remote="caf" revision="refs/tags/LA.UM.8.15.r1-06900-KAMORTA.0" sync-j="4" sync-c="true" sync-f="true" />
+    <default remote="caf" revision="refs/tags/LA.UM.8.15.r1-07300-KAMORTA.0" sync-j="4" sync-c="true" sync-f="true" />
 
     <project path="build/make" name="platform/build" groups="pdk" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -798,5 +798,6 @@
 
     <!-- Add all Device Specific repos -->
     <include name="device/land.xml" />
+    <include name="device/X00T.xml" />
 
 </manifest>
