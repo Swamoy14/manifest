@@ -18,5 +18,6 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="vendor/aosp" name="vendor_aosp" remote="pr" />
+    <project path="manifest" name="manifest" remote="pr" />
   
 </manifest>
