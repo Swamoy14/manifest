@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="pr" fetch="https://github.com/Swamoy14" revision="11" />
+    <remote name="pr" fetch="ssh://git@github.com/Swamoy14" revision="11" />
     
     <!-- General repos -->
     <project path="build/make" name="build" remote="pr">
@@ -19,5 +19,8 @@
     </project>
     <project path="vendor/aosp" name="vendor_aosp" remote="pr" />
     <project path="manifest" name="manifest" remote="pr" />
+    
+    <!-- CAF additions -->
+    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="pr" />
   
 </manifest>
