@@ -846,5 +846,6 @@
   <!-- Add all Device Specific repos -->
   <include name="devices/land.xml" />
   <include name="devices/X00T.xml" />
+  <include name="devices/z2_plus.xml" />
   
 </manifest>
