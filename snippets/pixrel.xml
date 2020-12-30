@@ -18,5 +18,8 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     <project path="vendor/aosp" name="vendor_aosp" remote="pr" />
+    
+    <!-- CodeAurora additions -->
+    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="pr" />
   
 </manifest>
