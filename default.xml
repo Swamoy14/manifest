@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="caf" fetch="git://codeaurora.org/quic/la" review="codeaurora.org" />
-  <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-11.0.0_r20" review="https://android-review.googlesource.com" />
+  <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-11.0.0_r27" review="https://android-review.googlesource.com" />
   <remote name="github" fetch="https://github.com" />
 
   <default remote="caf" revision="refs/tags/LA.UM.9.15.1.r1-01700-KAMORTA.0" sync-j="4" sync-c="true" sync-f="true" />
