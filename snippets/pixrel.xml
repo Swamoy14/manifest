@@ -21,5 +21,8 @@
     
     <!-- CodeAurora additions -->
     <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="pr" />
+    
+    <!-- Packages repos -->
+    <project path="packages/apps/GcamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-11.0" />
   
 </manifest>
