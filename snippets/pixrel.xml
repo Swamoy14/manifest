@@ -2,6 +2,7 @@
 <manifest>
 
     <remote name="pr" fetch="https://github.com/Swamoy14" revision="11" />
+    <remote name="bitbucket" fetch="https://bitbucket.org" />
     
     <!-- General repos -->
     <project path="build/make" name="build" remote="pr">
@@ -22,7 +23,14 @@
     <!-- CodeAurora additions -->
     <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="pr" />
     
+    <!-- Framework repos -->
+    <project path="frameworks/base" name="frameworks_base" remote="pr" />
+    
     <!-- Packages repos -->
     <project path="packages/apps/GcamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-11.0" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pr" />
+    
+    <!-- External repos -->
+    <project path="external/motorola/faceunlock" name="nitrogen-project/android_external_motorola_faceunlock" remote="bitbucket" revision="11" />
   
 </manifest>
