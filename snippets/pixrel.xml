@@ -29,8 +29,5 @@
     <!-- Packages repos -->
     <project path="packages/apps/GcamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-11.0" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pr" />
-    
-    <!-- External repos -->
-    <project path="external/motorola/faceunlock" name="nitrogen-project/android_external_motorola_faceunlock" remote="bitbucket" revision="11" />
   
 </manifest>
