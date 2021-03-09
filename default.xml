@@ -3,7 +3,7 @@
 
   <remote name="system" fetch="git://codeaurora.org/quic/la" review="codeaurora.org" />
   <remote name="vendor" fetch="git://codeaurora.org/quic/la" revision="refs/tags/LA.UM.9.16.r1-03800-MANNAR.0" review="codeaurora.org" />
-  <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-11.0.0_r29" review="https://android-review.googlesource.com" />
+  <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-11.0.0_r32" review="https://android-review.googlesource.com" />
   <remote name="github" fetch="https://github.com" />
 
   <default remote="system" revision="refs/tags/LA.QSSI.11.0.r1-10500-qssi.0" sync-j="4" sync-c="true" sync-f="true" />
@@ -57,16 +57,15 @@
   <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
   <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
   <project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
-  <project path="device/google/bramble-kernel" name="device/google/bramble-kernel" groups="device,bramble" clone-depth="1" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
   <project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
   <project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
+  <project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,redbull" clone-depth="1" />
   <project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
   <project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" />
-  <project path="device/google/redfin-kernel" name="device/google/redfin-kernel" groups="device,redfin" clone-depth="1" />
   <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
   <project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
   <project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
