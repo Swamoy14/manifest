@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="system" fetch="git://codeaurora.org/quic/la" review="codeaurora.org" />
-  <remote name="vendor" fetch="git://codeaurora.org/quic/la" revision="refs/tags/LA.UM.9.16.r1-03800-MANNAR.0" review="codeaurora.org" />
+  <remote name="vendor" fetch="git://codeaurora.org/quic/la" revision="refs/tags/LA.UM.9.16.r1-04100-MANNAR.0" review="codeaurora.org" />
   <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-11.0.0_r32" review="https://android-review.googlesource.com" />
   <remote name="github" fetch="https://github.com" />
 
