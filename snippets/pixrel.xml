@@ -20,10 +20,9 @@
     <project path="vendor/aosp" name="vendor_aosp" remote="pr" />
     
     <!-- CodeAurora additions -->
-    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="pr" />
-    <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="pr" revision="4.19" />
-    <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="pr" revision="4.19" />
-    <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="pr" revision="4.19" />
+    <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="pr" />
+    <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="pr" />
+    <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="pr" />
     
     <!-- Packages repos -->
     <project path="packages/apps/GcamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-11.0" />
