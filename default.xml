@@ -6,7 +6,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-11.0.0_r34" review="https://android-review.googlesource.com" />
   <remote name="github" fetch="https://github.com" />
 
-  <default remote="system" revision="refs/tags/LA.QSSI.11.0.r1-11400-qssi.0" sync-j="4" sync-c="true" sync-f="true" />
+  <default remote="system" revision="refs/tags/LA.QSSI.11.0.r1-11400.02-qssi.0" sync-j="4" sync-c="true" sync-f="true" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
