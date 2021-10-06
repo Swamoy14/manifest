@@ -5,7 +5,7 @@
   <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-11.0.0_r43" review="https://android-review.googlesource.com" />
   <remote name="github" fetch="https://github.com" />
 
-  <default remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-13300-qssi.0" sync-j="4" sync-c="true" sync-f="true" />
+  <default remote="caf" revision="refs/tags/LA.QSSI.11.0.r1-13500-qssi.0" sync-j="4" sync-c="true" sync-f="true" />
   
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
