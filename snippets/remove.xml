@@ -23,6 +23,9 @@
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
+  <remove-project name="device/google/barbet" />
+  <remove-project name="device/google/barbet-kernel" />
+  <remove-project name="device/google/barbet-sepolicy" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
@@ -39,9 +42,6 @@
   <remove-project name="device/google/crosshatch" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
-  <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_kernel" />
-  <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/sunfish" />
@@ -49,9 +49,6 @@
   <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/google_car" />
-  <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
-  <remove-project name="device/linaro/bootloader/edk2" />
-  <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
   <remove-project name="device/linaro/hikey" />
@@ -139,13 +136,11 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SafetyRegulatoryInfo" />
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/SoundRecorder" />
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
@@ -164,14 +159,9 @@
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
   <!-- System repos -->
+  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="pr" fetch="https://github.com/Swamoy14" revision="11" />
+    <remote name="pr" fetch="https://github.com/Swamoy14" revision="12" />
     
-    <!-- General repos -->
+    <!-- General repos
     <project path="build/make" name="build" remote="pr">
     <copyfile src="core/root.mk" dest="Makefile" />
       <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -17,7 +17,7 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="vendor/aosp" name="vendor_aosp" remote="pr" />
+    <project path="vendor/aosp" name="vendor_aosp" remote="pr" /> -->
     
     <!-- CodeAurora additions -->
     <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="pr" />
