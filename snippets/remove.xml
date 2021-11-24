@@ -34,6 +34,11 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
+  <remove-project name="device/google/gs101" />
+  <remove-project name="device/google/gs101-sepolicy" />
+  <remove-project name="device/google/gs-common" />
+  <remove-project name="device/google/raviole" />
+  <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/redbull" />
   <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redbull-sepolicy" />
@@ -68,6 +73,7 @@
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinyalsa" />
@@ -147,6 +153,7 @@
   <remove-project name="platform/packages/apps/Traceur" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -166,7 +173,9 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/tools/mkbootimg" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/nfc" />
