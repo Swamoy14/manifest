@@ -1111,8 +1111,5 @@
   
   <!-- Add some PixelReloaded repos -->
   <include name="snippets/pixrel.xml" />
-
-  <!-- Add all Device Specific repos -->
-  <include name="devices/X00T.xml" />
   
 </manifest>
