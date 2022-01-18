@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="caf" fetch="git://codeaurora.org/quic/la" review="codeaurora.org" />
+  <remote name="caf" fetch="http://source.codeaurora.cn/quic/la" review="codeaurora.org" />
   <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-12.0.0_r18" review="https://android-review.googlesource.com" />
   <remote name="github" fetch="https://github.com" />
   <remote name="gitlab" fetch="https://gitlab.com" />
