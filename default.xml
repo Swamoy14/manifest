@@ -6,7 +6,7 @@
   <remote name="github" fetch="https://github.com" />
   <remote name="gitlab" fetch="https://gitlab.com" />
 
-  <default remote="caf" revision="refs/tags/LA.QSSI.12.0.r1-05600.02-qssi.0" sync-j="4" sync-c="true" sync-f="true" />
+  <default remote="caf" revision="refs/tags/LA.QSSI.12.0.r1-05800-qssi.0" sync-j="4" sync-c="true" sync-f="true" />
   
   <superproject name="platform/superproject" remote="aosp" />
   <contactinfo bugurl="go/repo-bug" />
@@ -146,7 +146,7 @@
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/cbor-java" name="platform/external/cbor-java" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cldr" name="platform/external/cldr" groups="pdk" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" />
@@ -636,7 +636,7 @@
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" />
   <project path="external/tflite-support" name="platform/external/tflite-support" groups="pdk" />
-  <project path="external/timezone-boundary-builder" name="platform/external/timezone-boundary-builder" groups="pdk" clone-depth="2" />
+  <project path="external/timezone-boundary-builder" name="platform/external/timezone-boundary-builder" groups="pdk" clone-depth="2" remote="aosp" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinyalsa_new" name="platform/external/tinyalsa_new" groups="pdk" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
