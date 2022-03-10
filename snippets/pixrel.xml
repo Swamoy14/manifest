@@ -17,6 +17,7 @@
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="manifest" name="manifest" remote="pr" revision="PR12" />
     <project path="vendor/aosp" name="vendor_aosp" remote="pr" />
     
     <!-- CodeAurora additions -->
