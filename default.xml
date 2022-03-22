@@ -157,7 +157,7 @@
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" />
-  <project path="external/crosvm" name="platform/external/crosvm" groups="pdk" />
+  <project path="external/crosvm" name="platform/external/crosvm" groups="pdk" remote="aosp" />
   <project path="external/curl" name="platform/external/curl" groups="pdk" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
@@ -240,7 +240,7 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" />
-  <project path="external/icing" name="platform/external/icing" groups="pdk" />
+  <project path="external/icing" name="platform/external/icing" groups="pdk" remote="aosp" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" />
@@ -452,7 +452,7 @@
   <project path="external/rust/crates/chrono" name="platform/external/rust/crates/chrono" groups="pdk" />
   <project path="external/rust/crates/clang-sys" name="platform/external/rust/crates/clang-sys" groups="pdk" />
   <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" />
-  <project path="external/rust/crates/crc32fast" name="platform/external/rust/crates/crc32fast" groups="pdk" />
+  <project path="external/rust/crates/crc32fast" name="platform/external/rust/crates/crc32fast" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/codespan-reporting" name="platform/external/rust/crates/codespan-reporting" groups="pdk" />
   <project path="external/rust/crates/criterion" name="platform/external/rust/crates/criterion" groups="pdk" />
   <project path="external/rust/crates/criterion-plot" name="platform/external/rust/crates/criterion-plot" groups="pdk" />
@@ -482,7 +482,7 @@
   <project path="external/rust/crates/futures-util" name="platform/external/rust/crates/futures-util" groups="pdk" />
   <project path="external/rust/crates/gdbstub" name="platform/external/rust/crates/gdbstub" groups="pdk" />
   <project path="external/rust/crates/gdbstub_arch" name="platform/external/rust/crates/gdbstub_arch" groups="pdk" remote="aosp" />
-  <project path="external/rust/crates/getrandom" name="platform/external/rust/crates/getrandom" groups="pdk" />
+  <project path="external/rust/crates/getrandom" name="platform/external/rust/crates/getrandom" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/glob" name="platform/external/rust/crates/glob" groups="pdk" />
   <project path="external/rust/crates/grpcio" name="platform/external/rust/crates/grpcio" groups="pdk" />
   <project path="external/rust/crates/grpcio-compiler" name="platform/external/rust/crates/grpcio-compiler" groups="pdk" />
@@ -595,7 +595,7 @@
   <project path="external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="pdk" />
   <project path="external/rust/crates/untrusted" name="platform/external/rust/crates/untrusted" groups="pdk" />
   <project path="external/rust/crates/url" name="platform/external/rust/crates/url" groups="pdk" />
-  <project path="external/rust/crates/uuid" name="platform/external/rust/crates/uuid" groups="pdk" />
+  <project path="external/rust/crates/uuid" name="platform/external/rust/crates/uuid" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/vmm_vhost" name="platform/external/rust/crates/vmm_vhost" groups="pdk" />
   <project path="external/rust/crates/vsock" name="platform/external/rust/crates/vsock" groups="pdk" />
   <project path="external/rust/crates/walkdir" name="platform/external/rust/crates/walkdir" groups="pdk" />
@@ -989,7 +989,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
@@ -998,7 +998,7 @@
   <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1" />
   <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/apex" name="platform/system/apex" groups="pdk" />
+  <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
