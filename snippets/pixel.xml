@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="pixel" fetch="https://github.com/PixelExperience" revision="twelve" review="gerrit-staging.pixelexperience.org" />
+  <remote name="pixel" fetch="https://github.com/PixelExperience" revision="twelve" review="gerrit.pixelexperience.org" />
   <remote name="pixel-plus" fetch="https://github.com/PixelExperience" revision="twelve-plus" review="gerrit.pixelexperience.org" />
   <remote name="pixel-gitlab" fetch="https://gitlab.com/PixelExperience/twelve" revision="twelve" />
   <remote name="pixel-gitlab-self-hosted" fetch="https://gitlab.pixelexperience.org/android" revision="twelve" />
