@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="pr" fetch="https://github.com/Swamoy14" revision="12" />
+    <remote name="pr" fetch="ssh://git@github.com/Swamoy14" revision="12" />
     
     <!-- General repos -->
     <project path="build/make" name="build" remote="pr">
