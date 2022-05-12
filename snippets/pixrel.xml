@@ -29,8 +29,5 @@
     <!-- Packages repos -->
     <project path="packages/apps/GcamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-12.1" />
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pr" />
-    
-    <!-- System Repos -->
-    <project path="system/libhidl" name="system_libhidl" remote="pr" />
   
 </manifest>
