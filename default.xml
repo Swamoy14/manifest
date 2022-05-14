@@ -5,7 +5,7 @@
   <remote name="github" fetch="https://github.com" />
   <remote name="gitlab" fetch="https://gitlab.com" />
 
-  <default remote="clo" revision="refs/tags/LA.UM.10.2.1.r1-03600-sdm660.0" sync-j="4" sync-c="true" sync-f="true" />
+  <default remote="clo" revision="refs/tags/LA.UM.10.2.1.r1-03700-sdm660.0" sync-j="4" sync-c="true" sync-f="true" />
   
   <superproject name="platform/superproject" revision="refs/tags/android-12.1.0_r4" />
   <contactinfo bugurl="go/repo-bug" />
