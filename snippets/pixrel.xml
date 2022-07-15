@@ -27,7 +27,6 @@
     <project path="kernel/asus/sdm636" name="android_kernel_asus_sdm636" remote="pr" />
     
     <!-- Packages repos -->
-    <project path="packages/apps/GcamGOPrebuilt" name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" remote="github" revision="arrow-12.1" />
     <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pr" />
   
 </manifest>
