@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="clo" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org" />
-  <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-12.1.0_r10" review="https://android-review.googlesource.com" />
+  <remote name="aosp" fetch="https://android.googlesource.com" revision="refs/tags/android-12.1.0_r22" review="https://android-review.googlesource.com" />
   <remote name="github" fetch="https://github.com" />
   <remote name="gitlab" fetch="https://gitlab.com" />
 
