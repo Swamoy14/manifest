@@ -6,7 +6,7 @@
   <remote name="github" fetch="https://github.com" />
   <remote name="gitlab" fetch="https://gitlab.com" />
 
-  <default remote="clo" revision="refs/tags/LA.UM.10.2.1.r1-04300-sdm660.0" sync-j="4" sync-c="true" sync-f="true" />
+  <default remote="clo" revision="refs/tags/LA.UM.10.2.1.r1-04600-sdm660.0" sync-j="4" sync-c="true" sync-f="true" />
   
   <superproject name="platform/superproject" remote="aosp" />
   <contactinfo bugurl="go/repo-bug" />
@@ -828,6 +828,7 @@
   <project path="packages/apps/Car/RotaryController" name="platform/packages/apps/Car/RotaryController" groups="pdk-fs" />
   <project path="packages/apps/Car/Settings" name="platform/packages/apps/Car/Settings" groups="pdk-fs" />
   <project path="packages/apps/Car/SettingsIntelligence" name="platform/packages/apps/Car/SettingsIntelligence" groups="pdk-fs" />
+  <project path="packages/apps/Car/systemlibs" name="platform/packages/apps/Car/systemlibs" groups="pdk-fs" />
   <project path="packages/apps/Car/SystemUpdater" name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
   <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" />
