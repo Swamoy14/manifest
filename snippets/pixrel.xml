@@ -3,19 +3,6 @@
 
     <remote name="pr" fetch="ssh://git@github.com/Swamoy14" revision="12" />
     
-    <!-- General repos -->
-    <project path="build/make" name="build" remote="pr">
-    <copyfile src="core/root.mk" dest="Makefile" />
-      <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-      <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-      <linkfile src="core" dest="build/core" />
-      <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-      <linkfile src="target" dest="build/target" />
-      <linkfile src="tools" dest="build/tools" />
-    </project>
-    <project path="manifest" name="manifest" remote="pr" revision="PR12" />
-    <project path="vendor/aosp" name="vendor_aosp" remote="pr" />
-    
     <!-- CodeAurora additions -->
     <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="pr" />
     <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="pr" />
@@ -26,7 +13,4 @@
     <project path="device/asus/X00T" name="android_device_asus_X00T" remote="pr" />
     <project path="kernel/asus/sdm636" name="android_kernel_asus_sdm636" remote="pr" />
     
-    <!-- Packages repos -->
-    <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pr" />
-  
 </manifest>
