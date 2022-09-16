@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Swamoy14/manifest.git -b PR12
+repo init -u https://github.com/Swamoy14/manifest.git -b PR13
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
