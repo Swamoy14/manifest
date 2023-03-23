@@ -135,7 +135,7 @@
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
   <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bpftool" name="platform/external/bpftool" groups="pdk" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -153,7 +153,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
   <project path="external/connectedappssdk" name="platform/external/connectedappssdk" groups="pdk" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" />
@@ -279,10 +279,10 @@
   <project path="external/junit-params" name="platform/external/junit-params" groups="pdk" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk" />
   <project path="external/kmod" name="platform/external/kmod" groups="pdk" />
-  <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" remote="aosp" />
   <project path="external/kotlinx.atomicfu" name="platform/external/kotlinx.atomicfu" groups="pdk" />
-  <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" groups="pdk" />
-  <project path="external/kotlinx.metadata" name="platform/external/kotlinx.metadata" groups="pdk" />
+  <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" groups="pdk" remote="aosp" />
+  <project path="external/kotlinx.metadata" name="platform/external/kotlinx.metadata" groups="pdk" remote="aosp" />
   <project path="external/ktfmt" name="platform/external/ktfmt" groups="pdk" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" />
   <project path="external/libabigail" name="platform/external/libabigail" groups="pdk" />
@@ -385,9 +385,9 @@
   <project path="external/oboe" name="platform/external/oboe" groups="pdk" />
   <project path="external/obstack" name="platform/external/obstack" groups="pdk" />
   <project path="external/oj-libjdwp" name="platform/external/oj-libjdwp" groups="pdk" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
+  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" remote="aosp" />
   <project path="external/okhttp4" name="platform/external/okhttp4" groups="pdk" />
-  <project path="external/okio" name="platform/external/okio" groups="pdk" />
+  <project path="external/okio" name="platform/external/okio" groups="pdk" remote="aosp" />
   <project path="external/one-true-awk" name="platform/external/one-true-awk" groups="pdk" />
   <project path="external/opencensus-java" name="platform/external/opencensus-java" groups="pdk,tradefed" />
   <project path="external/OpenCL-CTS" name="platform/external/OpenCL-CTS" remote="aosp" />
@@ -530,7 +530,7 @@
   <project path="external/rust/crates/futures-util" name="platform/external/rust/crates/futures-util" groups="pdk" />
   <project path="external/rust/crates/gdbstub" name="platform/external/rust/crates/gdbstub" groups="pdk" />
   <project path="external/rust/crates/gdbstub_arch" name="platform/external/rust/crates/gdbstub_arch" groups="pdk" />
-  <project path="external/rust/crates/getrandom" name="platform/external/rust/crates/getrandom" groups="pdk" />
+  <project path="external/rust/crates/getrandom" name="platform/external/rust/crates/getrandom" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/glob" name="platform/external/rust/crates/glob" groups="pdk" />
   <project path="external/rust/crates/grpcio" name="platform/external/rust/crates/grpcio" groups="pdk" />
   <project path="external/rust/crates/grpcio-compiler" name="platform/external/rust/crates/grpcio-compiler" groups="pdk" />
@@ -569,9 +569,9 @@
   <project path="external/rust/crates/nix" name="platform/external/rust/crates/nix" groups="pdk" />
   <project path="external/rust/crates/no-panic" name="platform/external/rust/crates/no-panic" groups="pdk" />
   <project path="external/rust/crates/nom" name="platform/external/rust/crates/nom" groups="pdk" />
-  <project path="external/rust/crates/num-bigint" name="platform/external/rust/crates/num-bigint" groups="pdk" />
+  <project path="external/rust/crates/num-bigint" name="platform/external/rust/crates/num-bigint" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/num-derive" name="platform/external/rust/crates/num-derive" groups="pdk" />
-  <project path="external/rust/crates/num-integer" name="platform/external/rust/crates/num-integer" groups="pdk" />
+  <project path="external/rust/crates/num-integer" name="platform/external/rust/crates/num-integer" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/num-traits" name="platform/external/rust/crates/num-traits" groups="pdk" />
   <project path="external/rust/crates/num_cpus" name="platform/external/rust/crates/num_cpus" groups="pdk" />
   <project path="external/rust/crates/oid-registry" name="platform/external/rust/crates/oid-registry" groups="pdk" />
@@ -593,7 +593,7 @@
   <project path="external/rust/crates/plotters" name="platform/external/rust/crates/plotters" groups="pdk" />
   <project path="external/rust/crates/plotters-backend" name="platform/external/rust/crates/plotters-backend" groups="pdk" />
   <project path="external/rust/crates/plotters-svg" name="platform/external/rust/crates/plotters-svg" groups="pdk" />
-  <project path="external/rust/crates/ppv-lite86" name="platform/external/rust/crates/ppv-lite86" groups="pdk" />
+  <project path="external/rust/crates/ppv-lite86" name="platform/external/rust/crates/ppv-lite86" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/proc-macro-error" name="platform/external/rust/crates/proc-macro-error" groups="pdk" />
   <project path="external/rust/crates/proc-macro-error-attr" name="platform/external/rust/crates/proc-macro-error-attr" groups="pdk" />
   <project path="external/rust/crates/proc-macro-hack" name="platform/external/rust/crates/proc-macro-hack" groups="pdk" />
@@ -604,9 +604,9 @@
   <project path="external/rust/crates/quiche" name="platform/external/rust/crates/quiche" groups="pdk" />
   <project path="external/rust/crates/quickcheck" name="platform/external/rust/crates/quickcheck" groups="pdk" />
   <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" groups="pdk" />
-  <project path="external/rust/crates/rand" name="platform/external/rust/crates/rand" groups="pdk" />
-  <project path="external/rust/crates/rand_chacha" name="platform/external/rust/crates/rand_chacha" groups="pdk" />
-  <project path="external/rust/crates/rand_core" name="platform/external/rust/crates/rand_core" groups="pdk" />
+  <project path="external/rust/crates/rand" name="platform/external/rust/crates/rand" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/rand_chacha" name="platform/external/rust/crates/rand_chacha" groups="pdk" remote="aosp" />
+  <project path="external/rust/crates/rand_core" name="platform/external/rust/crates/rand_core" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/rand_xorshift" name="platform/external/rust/crates/rand_xorshift" groups="pdk" />
   <project path="external/rust/crates/rayon" name="platform/external/rust/crates/rayon" groups="pdk" />
   <project path="external/rust/crates/rayon-core" name="platform/external/rust/crates/rayon-core" groups="pdk" />
@@ -1018,7 +1018,7 @@
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/ImageWallpaper" name="platform/packages/wallpapers/ImageWallpaper" groups="pdk-fs" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" groups="pdk-fs" clone-depth="1" remote="aosp" />
@@ -1049,7 +1049,7 @@
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" groups="pdk" clone-depth="1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1" />
   <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" groups="pdk" clone-depth="1" />
   <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" groups="pdk" clone-depth="1" />
