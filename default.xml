@@ -710,7 +710,7 @@
   <project path="external/strace" name="platform/external/strace" groups="pdk" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" />
   <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" groups="pdk" clone-depth="1" />
-  <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" />
+  <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" revision="refs/tags/LA.UM.11.2.1.r1-04200-sdm660.0" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" />
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" />
