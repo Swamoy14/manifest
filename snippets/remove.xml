@@ -30,8 +30,8 @@
   <remove-project name="device/google/bluejay-kernel" />
   <remove-project name="device/google/bramble" />
   <remove-project name="device/google/bramble-sepolicy" />
-  <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/coral" />
+  <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
   <remove-project name="device/google/cuttlefish" />
@@ -57,6 +57,9 @@
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/trout" />
+  <remove-project name="device/google/shusky" />
+  <remove-project name="device/google/shusky-sepolicy" />
+  <remove-project name="device/google/shusky-kernel" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
@@ -64,6 +67,8 @@
   <remove-project name="device/google/tangorpro-sepolicy" />
   <remove-project name="device/google/tangorpro-kernel" />
   <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/zuma" />
+  <remove-project name="device/google/zuma-sepolicy" />
   <remove-project name="device/google_car" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
@@ -71,7 +76,6 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
-  <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
@@ -80,12 +84,14 @@
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
@@ -109,7 +115,7 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/build_repo" />
+  <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/development" />
@@ -131,16 +137,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/msm8960" />
-  <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8x09" />
-  <remove-project name="platform/hardware/qcom/msm8x26" />
-  <remove-project name="platform/hardware/qcom/msm8x27" />
-  <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
-  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/sdm845/display" />
-  <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sm7250/display" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
@@ -182,7 +179,6 @@
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <remove-project name="platform/packages/modules/Permission" />
-  <remove-project name="platform/packages/modules/Virtualization" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
